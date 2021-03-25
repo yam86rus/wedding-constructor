@@ -1,0 +1,59 @@
+/* Nav */
+.nav__inner {
+display: flex;
+    justify-content: flex-start;
+}
+.nav__inner ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.nav__inner li {
+    margin: 0 10px;
+    list-style-type:none;
+    font-size: 32px;
+
+
+}
+.nav__inner a {
+    text-decoration: none;
+    color: gray;
+}
+.activ {
+    text-decoration: underline;
+}
+
+
+.swiper-container {
+    width: 1024px;
+    height: 768px;
+}
+
+.swiper-slide img{
+    max-width: 100%;
+}
+
+.my-swiper-container{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    z-index: unset; /* включение кнопок  слайдера */
+}
+
+
+/* ------------------------ */
+/* 2-й слой                 */
+/* ------------------------ */
+.swiper-button-prev-lvl2,
+.swiper-button-next-lvl2 {
+    top: 30%;
+}
+
+/* ------------------------ */
+/* 3-й слой                 */
+/* ------------------------ */
+.swiper-button-prev-lvl3,
+.swiper-button-next-lvl3 {
+    top: 10%;
+}
+
